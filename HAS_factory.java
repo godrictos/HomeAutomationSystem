@@ -5,16 +5,16 @@ public class HAS_factory {
 		      if(item == null){
 		         return null;
 		      }		
-		      if(item.equalsIgnoreCase("AC")){
+		      if(item.equalsIgnoreCase("AirConditioner")){
 		         return new AirConditioner();
 		         
 		      } else if(item.equalsIgnoreCase("light")){
 		         return new light();
 		         
-		      } else if(item.equalsIgnoreCase("tv")){
+		      } else if(item.equalsIgnoreCase("Television")){
 		         return new Television();
 		      }
-		      else if(item.equalsIgnoreCase("washing machine")){
+		      else if(item.equalsIgnoreCase("WashingMachine")){
 			         return new WashingMachine();
 			      }
 		      

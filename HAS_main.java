@@ -7,8 +7,10 @@ public class HAS_main {
 
 	    	      HAS item1 =  new_has_factory.getItem("Television");
 
-	 
+	    	     
 	      item1.on();
+	      
+	     
 
 	    
 	      HAS item2 =  new_has_factory.getItem("WashingMachine");
@@ -26,7 +28,17 @@ public class HAS_main {
 	      HAS item4 =  new_has_factory.getItem("AirConditioner");
 
 	  
-	      item3.on();
+	      item4.on();
+	      
+	      
+	      
+	      Television itemTV = new Television ();
+	 	 itemTV.on();
+	      itemTV.changeChannel (1);
+	      itemTV.changeVolume (2);
+	      
+	      itemTV.increaseVolume();
+	      itemTV.printStatus ();
 	}
-
+	
 }
